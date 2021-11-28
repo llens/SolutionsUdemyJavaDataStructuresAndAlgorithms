@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="recursion.ProductOfArrayChallengeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-28T00:47:06" hostname="tom-ThinkPad-T530" time="0.029">
+  <properties/>
+  <testcase name="productOfArray()" classname="recursion.ProductOfArrayChallengeTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
