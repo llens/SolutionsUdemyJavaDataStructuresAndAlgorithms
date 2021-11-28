@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="recursion.FirstUpperCaseChallengeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-28T19:17:22" hostname="tom-ThinkPad-T530" time="0.026">
-  <properties/>
-  <testcase name="firstUpperTest()" classname="recursion.FirstUpperCaseChallengeTest" time="0.026"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
