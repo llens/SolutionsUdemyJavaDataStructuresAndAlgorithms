@@ -10,7 +10,7 @@ class GreatestCommonDivisorExampleTest {
 
     @Test
     void greatestCommonDivisorTest() {
-        assertEquals(2, greatestCommonDivisorExample.greatestCommonDivisor(48, 18));
+        assertEquals(6, greatestCommonDivisorExample.greatestCommonDivisor(48, 18));
     }
 
     @Test

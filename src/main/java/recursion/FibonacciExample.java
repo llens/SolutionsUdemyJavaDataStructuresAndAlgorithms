@@ -2,7 +2,7 @@ package recursion;
 
 public class FibonacciExample {
 
-    public int fibonacci(int  n) {
+    public static int fibonacci(int  n) {
         if (n < 0) {
             return -1;
         }

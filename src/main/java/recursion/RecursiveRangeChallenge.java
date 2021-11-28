@@ -2,7 +2,7 @@ package recursion;
 
 public class RecursiveRangeChallenge {
 
-    public int recursiveRange(int num) {
+    public static int recursiveRange(int num) {
         if (num < 0) {
             return -1;
         }
