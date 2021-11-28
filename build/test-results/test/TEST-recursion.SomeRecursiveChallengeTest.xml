@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="recursion.SomeRecursiveChallengeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-28T04:05:14" hostname="tom-ThinkPad-T530" time="0.035">
-  <properties/>
-  <testcase name="someRecursiveTest()" classname="recursion.SomeRecursiveChallengeTest" time="0.03"/>
-  <testcase name="someRecursiveTest2()" classname="recursion.SomeRecursiveChallengeTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
