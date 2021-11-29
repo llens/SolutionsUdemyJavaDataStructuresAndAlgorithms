@@ -2,7 +2,9 @@ package recursion;
 
 public class PowerExample {
 
-    public float power(int n, int pow) {
+    private PowerExample() {}
+
+    public static float power(int n, int pow) {
         if (pow > 0) {
             return n * power(n, pow - 1);
         } else if (pow == 0) {

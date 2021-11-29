@@ -2,6 +2,8 @@ package recursion;
 
 public class FibonacciExample {
 
+    private FibonacciExample() {}
+
     public static int fibonacci(int  n) {
         if (n < 0) {
             return -1;

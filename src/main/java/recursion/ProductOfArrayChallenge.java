@@ -2,13 +2,15 @@ package recursion;
 
 public class ProductOfArrayChallenge {
 
-    public int productOfArray(int A[], int N) {
-        if (N < 0) {
+    private ProductOfArrayChallenge() {}
+
+    public static int productOfArray(int[] a, int n) {
+        if (n < 0) {
             return -1;
         }
-        if (N == 0) {
-            return A[0];
+        if (n == 0) {
+            return a[0];
         }
-        return A[N - 1] * productOfArray(A, N - 1);
+        return a[n - 1] * productOfArray(a, n - 1);
     }
 }

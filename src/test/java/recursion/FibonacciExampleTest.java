@@ -6,16 +6,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FibonacciExampleTest {
 
-    private FibonacciExample fibonacciExample = new FibonacciExample();
-
     @Test
     void fibonacciTest() {
-        assertEquals(2, fibonacciExample.fibonacci(3));
+        assertEquals(2, FibonacciExample.fibonacci(3));
     }
 
     @Test
     void fibonacciTest2() {
-        assertEquals(-1, fibonacciExample.fibonacci(-2));
+        assertEquals(-1, FibonacciExample.fibonacci(-2));
     }
 
 }

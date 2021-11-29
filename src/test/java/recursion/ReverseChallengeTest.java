@@ -6,10 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseChallengeTest {
 
-    ReverseChallenge reverseChallenge = new ReverseChallenge();
-
     @Test
     void reverseTest() {
-        assertEquals("tset", reverseChallenge.reverse("test"));
+        assertEquals("tset", ReverseChallenge.reverse("test"));
     }
 }

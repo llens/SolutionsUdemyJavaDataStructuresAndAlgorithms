@@ -6,20 +6,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PalindromeChallengeTest {
 
-    PalindromeChallenge palindromeChallenge = new PalindromeChallenge();
-
     @Test
     void isPalindromeTest() {
-        assertEquals(false, palindromeChallenge.isPalindrome("test"));
+        assertFalse(PalindromeChallenge.isPalindrome("test"));
     }
 
     @Test
     void isPalindromeTest2() {
-        assertEquals(true, palindromeChallenge.isPalindrome("tsest"));
+        assertTrue(PalindromeChallenge.isPalindrome("tsest"));
     }
 
     @Test
     void isPalindromeTest3() {
-        assertEquals(true, palindromeChallenge.isPalindrome("tsst"));
+        assertTrue(PalindromeChallenge.isPalindrome("tsst"));
     }
 }

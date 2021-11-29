@@ -2,7 +2,9 @@ package recursion;
 
 public class DecimalToBinaryExample {
 
-    public int decimalToBinary(int n) {
+    private DecimalToBinaryExample() {}
+
+    public static int decimalToBinary(int n) {
         if (n == 0) {
             return 0;
         }

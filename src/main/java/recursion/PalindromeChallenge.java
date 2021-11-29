@@ -2,7 +2,9 @@ package recursion;
 
 public class PalindromeChallenge {
 
-    public boolean isPalindrome(String s) {
+    private PalindromeChallenge() {}
+
+    public static boolean isPalindrome(String s) {
         char[] sa = s.toCharArray();
         if (s.length() <= 1) {
             return true;

@@ -1,14 +1,10 @@
 package recursion;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 public class RecursionExample {
 
-    private static Logger logger = LogManager.getLogger(RecursionExample.class);
+    private RecursionExample() {};
 
-    public int factorial(int n) {
-        logger.info(n);
+    public static int factorial(int n) {
         if (n < 0) {
             return -1;
         }

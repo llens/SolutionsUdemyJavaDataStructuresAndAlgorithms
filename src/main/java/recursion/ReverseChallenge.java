@@ -2,6 +2,8 @@ package recursion;
 
 public class ReverseChallenge {
 
+    private ReverseChallenge() {}
+
     public static String reverse(String str) {
         if (str.length() < 2) {
             return str;
