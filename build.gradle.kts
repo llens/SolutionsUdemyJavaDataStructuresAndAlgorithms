@@ -1,6 +1,7 @@
 plugins {
     java
     id("name.remal.sonarlint") version "1.4.1"
+    id("com.diffplug.spotless") version "6.0.0"
 }
 
 group = "org.example"
@@ -17,4 +18,12 @@ dependencies {
 
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
+}
+
+configure<com.diffplug.gradle.spotless.SpotlessExtension> {
+    java {
+        importOrder()
+        removeUnusedImports()
+        googleJavaFormat()
+    }
 }
