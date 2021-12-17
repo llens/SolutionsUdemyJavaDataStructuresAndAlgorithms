@@ -5,7 +5,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
 import util.Pair;
 
 public class ArrayPairs {
@@ -17,7 +16,9 @@ public class ArrayPairs {
     return Arrays.stream(array)
         .mapToObj( // O(N)
             entry ->
-                Arrays.stream(Arrays.copyOfRange(array, atomicInteger.getAndIncrement(), array.length)) // O(N)
+                Arrays.stream(
+                        Arrays.copyOfRange(
+                            array, atomicInteger.getAndIncrement(), array.length)) // O(N)
                     .mapToObj(entryInner -> Pair.of(entry, entryInner))
                     .toList())
         .flatMap(Collection::stream)
